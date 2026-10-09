@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none" role="img" aria-label="Logo Việt Phục Ribbon Áo Dài">
+  <defs>
+    <!-- Green Gradients -->
+    <linearGradient id="vp-green-outer" x1="240" y1="80" x2="160" y2="245" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#166534" />
+      <stop offset="25%" stop-color="#15803D" />
+      <stop offset="60%" stop-color="#22C55E" />
+      <stop offset="85%" stop-color="#15803D" />
+      <stop offset="100%" stop-color="#0F5132" />
+    </linearGradient>
+
+    <linearGradient id="vp-green-inner" x1="180" y1="120" x2="215" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22C55E" />
+      <stop offset="45%" stop-color="#16A34A" />
+      <stop offset="100%" stop-color="#0F766E" />
+    </linearGradient>
+
+    <linearGradient id="vp-green-skirt-left" x1="180" y1="220" x2="165" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#16A34A" />
+      <stop offset="35%" stop-color="#0D9488" />
+      <stop offset="70%" stop-color="#0F766E" />
+      <stop offset="100%" stop-color="#115E59" />
+    </linearGradient>
+
+    <linearGradient id="vp-green-skirt-center" x1="210" y1="240" x2="220" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="30%" stop-color="#10B981" />
+      <stop offset="65%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+
+    <linearGradient id="vp-green-to-gold" x1="220" y1="260" x2="260" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="35%" stop-color="#34D399" />
+      <stop offset="65%" stop-color="#EAB308" />
+      <stop offset="100%" stop-color="#CA8A04" />
+    </linearGradient>
+
+    <!-- Pink Gradients -->
+    <linearGradient id="vp-pink-collar" x1="250" y1="75" x2="265" y2="98" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#E11D48" />
+    </linearGradient>
+
+    <linearGradient id="vp-pink-spiral-upper" x1="270" y1="90" x2="220" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDA4AF" />
+      <stop offset="30%" stop-color="#F43F5E" />
+      <stop offset="70%" stop-color="#FB7185" />
+      <stop offset="100%" stop-color="#E11D48" />
+    </linearGradient>
+
+    <linearGradient id="vp-pink-spiral-lower" x1="220" y1="190" x2="275" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E11D48" />
+      <stop offset="25%" stop-color="#F43F5E" />
+      <stop offset="65%" stop-color="#FDA4AF" />
+      <stop offset="100%" stop-color="#F472B6" />
+    </linearGradient>
+
+    <linearGradient id="vp-pink-skirt-left" x1="210" y1="230" x2="140" y2="385" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E11D48" />
+      <stop offset="50%" stop-color="#F472B6" />
+      <stop offset="85%" stop-color="#FDA4AF" />
+      <stop offset="100%" stop-color="#FFF1F2" />
+    </linearGradient>
+
+    <linearGradient id="vp-pink-skirt-right" x1="240" y1="280" x2="290" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#BE185D" />
+      <stop offset="40%" stop-color="#E11D48" />
+      <stop offset="75%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#FBCFE8" />
+    </linearGradient>
+
+    <!-- Gold Gradients -->
+    <linearGradient id="vp-gold-collar" x1="250" y1="75" x2="265" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <linearGradient id="vp-gold-sleeve" x1="260" y1="90" x2="345" y2="245" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="30%" stop-color="#F59E0B" />
+      <stop offset="65%" stop-color="#EAB308" />
+      <stop offset="85%" stop-color="#CA8A04" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+
+    <linearGradient id="vp-gold-torso" x1="260" y1="140" x2="285" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#EAB308" />
+      <stop offset="100%" stop-color="#CA8A04" />
+    </linearGradient>
+
+    <linearGradient id="vp-gold-skirt" x1="260" y1="200" x2="355" y2="410" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="30%" stop-color="#F59E0B" />
+      <stop offset="65%" stop-color="#CA8A04" />
+      <stop offset="90%" stop-color="#A16207" />
+      <stop offset="100%" stop-color="#854D0E" />
+    </linearGradient>
+
+    <!-- Filters for Silk Sheen -->
+    <filter id="vp-shadow" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <g filter="url(#vp-shadow)">
+    <!-- 1. MANDARIN COLLAR (CỔ ĐỨNG) -->
+    <!-- Left Collar (Emerald Jade) -->
+    <path
+      d="M 242,95 C 238,87 240,78 245,76 C 248,75 250,78 251,84 C 251,90 248,94 242,95 Z"
+      fill="url(#vp-green-outer)"
+    />
+
+    <!-- Right Collar (Lotus Pink / Peach Glow) -->
+    <path
+      d="M 251,84 C 253,77 256,75 259,76 C 263,77 263,86 257,94 C 253,92 251,88 251,84 Z"
+      fill="url(#vp-pink-collar)"
+    />
+
+    <!-- 2. LEFT SLEEVE & SHOULDER (TAY ÁO TRÁI - EMERALD GREEN RIBBON) -->
+    <!-- Outer sleeve curve looping from shoulder down to wrist and folding inward -->
+    <path
+      d="M 242,95 C 230,100 216,110 205,125 C 190,146 178,175 168,212 C 163,230 159,244 157,246 C 158,247 169,240 178,228 C 182,216 189,190 197,165 C 205,140 215,120 228,106 C 234,101 239,97 242,95 Z"
+      fill="url(#vp-green-outer)"
+    />
+
+    <!-- Left inner sleeve depth shadow fold -->
+    <path
+      d="M 157,246 C 160,248 168,242 178,228 C 176,233 166,245 157,246 Z"
+      fill="#064E3B"
+      opacity="0.6"
+    />
+
+    <!-- 3. RIGHT SLEEVE & SHOULDER (TAY ÁO PHẢI - IMPERIAL GOLD RIBBON) -->
+    <!-- Outer sleeve curve looping from right collar down to right wrist -->
+    <path
+      d="M 259,94 C 270,100 285,110 295,125 C 310,146 322,175 332,212 C 337,230 341,244 343,246 C 342,247 331,240 322,228 C 318,216 311,190 303,165 C 295,140 285,120 272,106 C 266,101 261,97 259,94 Z"
+      fill="url(#vp-gold-sleeve)"
+    />
+
+    <!-- Right inner sleeve fold shadow -->
+    <path
+      d="M 343,246 C 340,248 332,242 322,228 C 324,233 334,245 343,246 Z"
+      fill="#78350F"
+      opacity="0.5"
+    />
+
+    <!-- 4. TORSO: GREEN INNER PANEL (UPPER BODY) -->
+    <path
+      d="M 235,108 C 224,124 218,144 218,168 C 218,188 223,205 228,218 C 233,212 238,200 238,185 C 238,162 242,138 250,118 C 244,113 239,110 235,108 Z"
+      fill="url(#vp-green-inner)"
+    />
+
+    <!-- 5. TORSO: GOLD INNER RIGHT PANEL -->
+    <path
+      d="M 265,112 C 274,130 278,154 278,178 C 278,198 274,214 268,226 C 265,220 262,208 262,192 C 262,168 260,142 254,122 C 258,118 262,114 265,112 Z"
+      fill="url(#vp-gold-torso)"
+    />
+
+    <!-- 6. TORSO: THE CENTRAL SPIRAL LOTUS-PINK RIBBON (VẠT LƯỢN HỒNG SEN) -->
+    <!-- Sweeps from collar/chest down through the center and wraps around waist -->
+    <path
+      d="M 256,92 C 265,105 272,125 270,145 C 268,165 258,182 248,198 C 238,214 230,230 232,250 C 234,266 244,282 254,298 C 262,310 268,325 270,342 C 274,332 272,315 264,300 C 254,282 246,268 244,254 C 242,238 250,222 260,206 C 272,188 284,166 284,142 C 284,120 274,102 262,90 C 259,91 257,91 256,92 Z"
+      fill="url(#vp-pink-spiral-upper)"
+    />
+
+    <!-- Pink Ribbon Mid-Chest Highlight Glow -->
+    <path
+      d="M 264,112 C 270,128 270,145 264,162 C 258,178 248,194 240,210 C 238,206 244,192 250,178 C 256,162 262,142 261,126 C 261,120 263,115 264,112 Z"
+      fill="#FFFFFF"
+      opacity="0.32"
+    />
+
+    <!-- 7. SKIRT SECTION (TÀ ÁO DÀI GIAO HƯƠNG - LOWER FLAP RIBBONS) -->
+
+    <!-- [A] Far Left Flare: Pink Silk Ribbon Petal (Cánh hồng xòe tà trái) -->
+    <path
+      d="M 230,225 C 218,245 200,270 188,300 C 176,330 168,358 158,382 C 168,380 182,365 194,342 C 206,318 218,288 226,260 C 230,245 231,232 230,225 Z"
+      fill="url(#vp-pink-skirt-left)"
+    />
+
+    <!-- [B] Left Skirt Green Ribbon (Vạt xanh ngọc thả dài tà trái) -->
+    <path
+      d="M 226,220 C 218,245 208,278 198,315 C 188,352 180,390 178,418 C 184,414 194,395 204,365 C 214,332 222,295 228,260 C 230,244 229,230 226,220 Z"
+      fill="url(#vp-green-skirt-left)"
+    />
+
+    <!-- [C] Center Low Skirt Ribbon: Deep Emerald terminating at lowest tip -->
+    <path
+      d="M 226,255 C 220,290 214,330 210,370 C 208,392 208,412 210,425 C 214,420 222,398 228,368 C 234,335 238,298 238,265 C 235,260 230,257 226,255 Z"
+      fill="url(#vp-green-skirt-center)"
+    />
+
+    <!-- [D] Center Skirt Ribbon: Green flowing into Bright Gold Gradient -->
+    <path
+      d="M 235,270 C 238,300 242,335 244,370 C 245,395 245,415 244,425 C 248,418 255,395 260,365 C 265,332 268,295 266,265 C 255,264 244,266 235,270 Z"
+      fill="url(#vp-green-to-gold)"
+    />
+
+    <!-- [E] Right Skirt: Rose-Pink Panel curving outwards (Vạt hồng tà phải) -->
+    <path
+      d="M 262,260 C 268,285 274,315 278,348 C 282,375 284,395 286,406 C 282,400 275,385 270,360 C 265,332 260,300 256,275 C 258,269 260,264 262,260 Z"
+      fill="url(#vp-pink-skirt-right)"
+    />
+
+    <!-- [F] Far Right Skirt: Imperial Gold Flared Hem (Vạt vàng kim quyền quý bung xòe) -->
+    <path
+      d="M 270,225 C 282,250 296,282 310,318 C 324,352 338,386 352,408 C 342,404 326,388 312,360 C 298,330 286,295 276,260 C 272,246 270,233 270,225 Z"
+      fill="url(#vp-gold-skirt)"
+    />
+
+    <!-- Far Right Flared Hem Rim Edge (Golden Hem Diagonal Cut Accent) -->
+    <path
+      d="M 352,408 C 346,407 334,396 322,376 C 330,392 342,405 352,408 Z"
+      fill="#78350F"
+      opacity="0.6"
+    />
+  </g>
+</svg>

@@ -1,0 +1,208 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, Cambria, serif;
+  --font-sans: "Be Vietnam Pro", system-ui, -apple-system, sans-serif;
+  --color-ivory: #FAF7F2;
+  --color-ivory-light: #FFFDF9;
+  --color-ivory-dark: #F3ECE1;
+  --color-crimson: #991B1E;
+  --color-crimson-dark: #781316;
+  --color-burgundy: #59151A;
+  --color-earth: #45362E;
+  --color-ochre: #C58B35;
+  --color-charcoal: #1C1917;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF7F2;
+    color: #1C1917;
+  }
+  
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+}
+
+/* ==========================================================================
+   GENTLE ACCESSORY ANIMATIONS (REMIX STUDIO)
+   ========================================================================== */
+@keyframes accDropIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.97);
+  }
+  60% {
+    opacity: 0.98;
+    transform: translateY(1.5px) scale(1.01);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes accNecklaceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.93);
+  }
+  65% {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes accRiseIn {
+  0% {
+    opacity: 0;
+    transform: translateY(7px) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes accGlideIn {
+  0% {
+    opacity: 0;
+    transform: rotate(4deg) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+@keyframes accShimmerGlow {
+  0% {
+    filter: drop-shadow(0 0 0px rgba(200, 151, 62, 0));
+  }
+  35% {
+    filter: drop-shadow(0 0 7px rgba(200, 151, 62, 0.75));
+  }
+  100% {
+    filter: drop-shadow(0 0 1px rgba(200, 151, 62, 0.1));
+  }
+}
+
+@keyframes accCardPop {
+  0% {
+    transform: scale(0.94);
+  }
+  60% {
+    transform: scale(1.035);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes accFloatFeedback {
+  0% {
+    opacity: 0;
+    transform: translateY(14px) scale(0.94);
+  }
+  16% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(-2px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-12px) scale(0.95);
+  }
+}
+
+@keyframes accCounterPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.22);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes accSparkleAura {
+  0% {
+    opacity: 0;
+    transform: scale(0.7) rotate(-10deg);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1.1) rotate(5deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.25) rotate(15deg);
+  }
+}
+
+.animate-acc-head {
+  animation: accDropIn 460ms cubic-bezier(0.22, 1, 0.36, 1) both, accShimmerGlow 850ms ease-out both;
+  transform-origin: center top;
+}
+
+.animate-acc-neck {
+  animation: accNecklaceIn 440ms cubic-bezier(0.22, 1, 0.36, 1) both, accShimmerGlow 850ms ease-out both;
+  transform-origin: center center;
+}
+
+.animate-acc-foot {
+  animation: accRiseIn 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  transform-origin: center bottom;
+}
+
+.animate-acc-hand {
+  animation: accGlideIn 480ms cubic-bezier(0.22, 1, 0.36, 1) both, accShimmerGlow 850ms ease-out both;
+  transform-origin: 136px 26px;
+}
+
+.animate-acc-generic {
+  animation: accDropIn 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  transform-origin: center;
+}
+
+.animate-acc-card-pop {
+  animation: accCardPop 320ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-acc-badge {
+  animation: accFloatFeedback 2.2s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-acc-counter {
+  animation: accCounterPulse 350ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-acc-sparkle {
+  animation: accSparkleAura 750ms ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-acc-head,
+  .animate-acc-neck,
+  .animate-acc-foot,
+  .animate-acc-hand,
+  .animate-acc-generic,
+  .animate-acc-card-pop,
+  .animate-acc-badge,
+  .animate-acc-counter,
+  .animate-acc-sparkle {
+    animation: none !important;
+    transition: opacity 200ms ease-in-out !important;
+  }
+}
